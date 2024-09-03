@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
+import Navbar from './components/Navbar.jsx'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -10,6 +11,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [color, setColor] = useState(0)
 
   // Snippet for useEffect
   // useEffect(() => {
@@ -17,20 +19,27 @@ function App() {
   // }, [])
 
 
-
+// Run on every render.
   useEffect(() => {
     alert("Welcome to my page!")
-  }, [])
+  })
 
   useEffect(() => {
     alert("Count was changed!")
   }, [count])
   
 
+  useEffect(() => {
+    alert("Count was changed")
+    setColor(color + 1)
+  }, [count])
+
+
 
 
   return (
     <>
+    <Navbar color={"cyan"}/>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
