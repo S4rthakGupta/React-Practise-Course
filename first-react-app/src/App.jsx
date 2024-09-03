@@ -15,6 +15,7 @@ function App() {
     <Card title="card4" description="desc 4" />
     <Card title="card5" description="desc 5" />
     <Card title="card6" description="desc 6" />
+    <Card title="card6" description="desc 6" />
     
     </div>
 
