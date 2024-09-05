@@ -24,15 +24,15 @@ function App() {
     alert("Welcome to my page!")
   })
 
-  useEffect(() => {
-    alert("Count was changed!")
-  }, [count])
+  // useEffect(() => {
+  //   alert("Count was changed!")
+  // }, [count])
   
 
-  useEffect(() => {
-    alert("Count was changed")
-    setColor(color + 1)
-  }, [count])
+  // useEffect(() => {
+  //   alert("Count was changed")
+  //   setColor(color + 1)
+  // }, [count])
 
 
 
