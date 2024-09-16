@@ -13,7 +13,7 @@ const issues = [
         status: 'Assigned', 
         owner: 'Eddie', 
         effort: 14,
-        created: new Date('2018-08-16'), 
+        created: new Date('2018-08-17'), 
         due: new Date('2018-08-30'),
         title: 'Missing bottom border on panel',
     }
